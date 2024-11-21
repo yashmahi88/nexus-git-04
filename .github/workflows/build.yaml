@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Use .NET Build and Test Action
-        uses: yashmahi88/build-01@v1.0.0
+        uses: yashmahi88/build-01@v2
         with:
           dotnet-version: '8.0.x'
 
