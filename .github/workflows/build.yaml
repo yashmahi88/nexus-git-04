@@ -1,0 +1,15 @@
+name: .NET Build Pipeline
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Use .NET Build and Test Action
+        uses: yashmahi88/build-01@v1
+        with:
+          dotnet-version: '8.0.x'
+
